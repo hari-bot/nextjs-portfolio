@@ -52,13 +52,17 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div
+            className="bg-gradient-to-br  from-primary-500 to-secondary-500 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"
+            style={{ borderRadius: "70% 30% 30% 70% / 70% 64% 36% 30%" }}
+          >
             <Image
               src="/images/hero-image.jpg"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
               width={300}
               height={300}
+              style={{ borderRadius: "30% 70% 70% 30% / 30% 36% 64% 70%" }}
             />
           </div>
         </motion.div>
