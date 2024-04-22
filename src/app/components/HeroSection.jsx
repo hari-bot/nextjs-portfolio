@@ -17,7 +17,7 @@ const HeroSection = () => {
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal  font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary-400  to-secondary-600">
               {" "}
-              Hello I'm{" "}
+              Hello I&apos;m{" "}
             </span>
             <br />
             <TypeAnimation
@@ -28,7 +28,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Hi, I'm a Full Stack Developer with MERN stack experience.
+            Hi, I&apos;m a Full Stack Developer with MERN stack experience.
             Passionate about creating remarkable web solutions for complex
             problems.
           </p>
