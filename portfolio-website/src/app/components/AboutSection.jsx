@@ -32,8 +32,11 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full stack developer course</li>
-        <li>AWS Cloud Practioneer</li>
+        <li>
+          <a href="https://www.cert.devtown.in/verify/bxWlZyV3p">
+            Self Placed Full Stack Development
+          </a>
+        </li>
       </ul>
     ),
   },
@@ -50,7 +53,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
+    <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">

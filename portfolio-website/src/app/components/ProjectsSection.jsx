@@ -7,8 +7,8 @@ import { useRef, useState } from "react";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "NextJs Portfolio Website",
+    description: "Personal Portfolio",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,48 +16,41 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Game Hub",
+    description: "Search for games and browse details",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hari-bot/game-hub",
+    previewUrl: "https://game-hub-hari.netlify.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Cryptocurrency Dashboard",
+    description:
+      "Bitcoin prices in USD and INR, along with 24-hour change data",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hari-bot/koinx",
+    previewUrl: "https://leafy-crisp-ab4116.netlify.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Sociopedia",
+    description: "Sociopedia is a full-stack social media platform",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/hari-bot/sociopedia",
+    previewUrl: "https://github.com/hari-bot/sociopedia",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Todo Management Application",
+    description: "Todo mangement",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hari-bot/Advanced-Todo-Management-Application",
+    previewUrl:
+      "https://github.com/hari-bot/Advanced-Todo-Management-Application",
   },
 ];
 
@@ -79,7 +72,7 @@ const ProjectsSection = () => {
     animate: { y: 0, opacity: 1 },
   };
   return (
-    <section>
+    <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
