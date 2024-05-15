@@ -40,7 +40,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/hari-bot/sociopedia",
-    previewUrl: "https://github.com/hari-bot/sociopedia",
+    previewUrl: "https://sociopedia-frontend-beta.vercel.app/",
   },
   {
     id: 5,
