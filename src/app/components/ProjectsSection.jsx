@@ -49,8 +49,7 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/hari-bot/Advanced-Todo-Management-Application",
-    previewUrl:
-      "https://github.com/hari-bot/Advanced-Todo-Management-Application",
+    previewUrl: "https://todo-assessment-client.onrender.com/",
   },
 ];
 
