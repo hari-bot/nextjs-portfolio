@@ -51,6 +51,15 @@ const projectsData = [
     gitUrl: "https://github.com/hari-bot/Advanced-Todo-Management-Application",
     previewUrl: "https://todo-assessment-client.onrender.com/",
   },
+  {
+    id: 6,
+    title: "PageInsightPro",
+    description: "Facebook Page Management Application",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/hari-bot/pageinsight-pro",
+    previewUrl: "https://pageinsightpro.netlify.app/",
+  },
 ];
 
 const ProjectsSection = () => {
