@@ -53,9 +53,19 @@ const projectsData = [
   },
   {
     id: 6,
+    title: "Profile Explorer",
+    description:
+      "Managing and viewing user profiles with interactive map integration.",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/hari-bot/bynry-assignment",
+    previewUrl: "https://profileexplorer.netlify.app/",
+  },
+  {
+    id: 7,
     title: "PageInsightPro",
     description: "Facebook Page Management Application",
-    image: "/images/projects/6.png",
+    image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/hari-bot/pageinsight-pro",
     previewUrl: "https://pageinsightpro.netlify.app/",
