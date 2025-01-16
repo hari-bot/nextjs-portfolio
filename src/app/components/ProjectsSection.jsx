@@ -70,6 +70,15 @@ const projectsData = [
     gitUrl: "https://github.com/hari-bot/pageinsight-pro",
     previewUrl: "https://pageinsightpro.netlify.app/",
   },
+  {
+    id: 8,
+    title: "Issue Tracker",
+    description: "Project Issue Tracker a NextJS App",
+    image: "/images/projects/8.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/hari-bot/issue-tracker",
+    previewUrl: "https://issue-tracker-bsh7.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
