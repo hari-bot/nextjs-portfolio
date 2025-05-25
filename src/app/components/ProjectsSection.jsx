@@ -94,7 +94,7 @@ const projectsData = [
     title: "Crimewatch",
     description:
       "A Location-Based Crime Reporting System that enables users to report crimes with images and GPS locations. It features an interactive map, hotspot detection using DBSCAN, and real-time updates for law enforcement.",
-    image: "/images/projects/9.png",
+    image: "/images/projects/10.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/hari-bot/crimewatch",
     previewUrl: "https://crimewatch-omega.vercel.app/",
