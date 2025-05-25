@@ -86,7 +86,7 @@ const projectsData = [
       "Create, customize, and share expressive mood meters. Let the world know your vibe with beautiful, shareable mood trackers.",
     image: "/images/projects/9.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/hari-bot/issue-tracker",
+    gitUrl: "https://github.com/hari-bot/moodly",
     previewUrl: "https://moodly-azure.vercel.app/",
   },
   {
