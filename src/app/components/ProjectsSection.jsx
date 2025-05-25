@@ -79,6 +79,26 @@ const projectsData = [
     gitUrl: "https://github.com/hari-bot/issue-tracker",
     previewUrl: "https://issue-tracker-bsh7.vercel.app/",
   },
+  {
+    id: 9,
+    title: "Moodly",
+    description:
+      "Create, customize, and share expressive mood meters. Let the world know your vibe with beautiful, shareable mood trackers.",
+    image: "/images/projects/9.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/hari-bot/issue-tracker",
+    previewUrl: "https://moodly-azure.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Crimewatch",
+    description:
+      "A Location-Based Crime Reporting System that enables users to report crimes with images and GPS locations. It features an interactive map, hotspot detection using DBSCAN, and real-time updates for law enforcement.",
+    image: "/images/projects/9.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/hari-bot/crimewatch",
+    previewUrl: "https://crimewatch-omega.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
