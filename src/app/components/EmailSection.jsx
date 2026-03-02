@@ -1,42 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
 const EmailSection = () => {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const formSubmitUrl =
+    process.env.FORM_SUBMIT_URL || "https://formsubmit.co/hari@mail.com";
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const data = {
-      email: e.target.email.value,
-      subject: e.target.subject.value,
-      message: e.target.message.value,
-    };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
-
-    const options = {
-      // The method is POST because we are sending data.
-      method: "POST",
-      // Tell the server we're sending JSON.
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // Body of the request is the JSON data we created above.
-      body: JSONdata,
-    };
-
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-
-    if (response.status === 200) {
-      console.log("Message Sent");
-      setEmailSubmitted(true);
-    }
-  };
   return (
     <section
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
@@ -63,7 +35,12 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <form className="flex flex-col" onSubmit={handleSubmit}>
+        <form
+          target="_blank"
+          className="flex flex-col"
+          action={formSubmitUrl}
+          method="POST"
+        >
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -118,11 +95,6 @@ const EmailSection = () => {
           >
             Send Message
           </button>
-          {emailSubmitted && (
-            <p className="text-green-500 text-sm mt-2">
-              Email sent sucessfully!
-            </p>
-          )}
         </form>
       </div>
     </section>
